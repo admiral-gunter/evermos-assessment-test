@@ -166,15 +166,7 @@ const checkout = () => {
         var name = popup.querySelector('#name') as HTMLInputElement
         var email = popup.querySelector('#email') as HTMLInputElement
         var post_code = popup.querySelector('#post_code') as HTMLInputElement
-        // if (!name.value || !email.value || post_code.value) {
-        //     Swal.fire({
-        //         icon: "error",
-        //         title: "Oops...",
-        //         text: "Please fill all required fields!",
-        //     });
 
-        //     return;
-        // }
 
         const URL = import.meta.env.VITE_API_URL + 'checkout';
 
