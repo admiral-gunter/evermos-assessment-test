@@ -189,9 +189,8 @@ route('POST', '~^/api/cart$~', function () use ($conn) {
     getCart($conn);
 });
 
-route('GET', '~^/api/products/(\d+)$~', function ($matches) use ($conn) {
-    $id = intval($matches[1]);
-    getOne($conn, $id);
+route('POST', '~^/api/checkout$~', function ($matches) use ($conn) {
+    checkOut($conn);
 });
 
 
