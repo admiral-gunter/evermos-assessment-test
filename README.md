@@ -25,4 +25,4 @@ The PoC API is implemented using Python and Flask.  It includes the following en
 
 * **`/products` (GET):** Retrieves a list of available products with their details, including current stock quantity.
 * **`/checkout` (POST):**  Handles the checkout process for a single product.  Implements
-* **`/cart` (POST):**  Retrieves  a list of product in a cart
+* **`/cart` (POST):**  Retrieves the current user's shopping cart contents

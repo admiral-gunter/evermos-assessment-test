@@ -194,7 +194,6 @@ route('POST', '~^/api/checkout$~', function ($matches) use ($conn) {
 });
 
 
-// If no route matches, return 404
 http_response_code(404);
 echo json_encode(["message" => "Endpoint not found."]);
 
